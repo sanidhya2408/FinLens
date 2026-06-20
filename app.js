@@ -446,7 +446,7 @@ function initUploadPage() {
     formData.append("file", selectedFile);
 
     const response = await fetch(
-      "https://finlens-back.onrender.com",
+      "https://finlens-back.onrender.com/upload",
       {
         method: "POST",
         body: formData
